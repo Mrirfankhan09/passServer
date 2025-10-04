@@ -20,7 +20,7 @@ import cookieParser from 'cookie-parser';
 
 server.use(cors(
     {
-        origin: 'http://localhost:5173',
+        origin: ['http://localhost:5173','https://passserver.onrender.com'],
         credentials: true,
     }
 ));
